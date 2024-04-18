@@ -31,6 +31,8 @@ namespace Vista_PrototipoMenu
         {
             this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.ReporteMaestros1 = new Vista_PrototipoMenu.ReporteMaestros();
+            this.crystalReportViewer2 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.ReporteMaestros2 = new Vista_PrototipoMenu.ReporteMaestros();
             this.SuspendLayout();
             // 
             // crystalReportViewer1
@@ -45,11 +47,24 @@ namespace Vista_PrototipoMenu
             this.crystalReportViewer1.Size = new System.Drawing.Size(800, 450);
             this.crystalReportViewer1.TabIndex = 0;
             // 
+            // crystalReportViewer2
+            // 
+            this.crystalReportViewer2.ActiveViewIndex = 0;
+            this.crystalReportViewer2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.crystalReportViewer2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.crystalReportViewer2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.crystalReportViewer2.Location = new System.Drawing.Point(0, 0);
+            this.crystalReportViewer2.Name = "crystalReportViewer2";
+            this.crystalReportViewer2.ReportSource = this.ReporteMaestros2;
+            this.crystalReportViewer2.Size = new System.Drawing.Size(800, 450);
+            this.crystalReportViewer2.TabIndex = 1;
+            // 
             // Reporte
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.crystalReportViewer2);
             this.Controls.Add(this.crystalReportViewer1);
             this.Name = "Reporte";
             this.Text = "Reporte";
@@ -61,5 +76,7 @@ namespace Vista_PrototipoMenu
 
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
         private ReporteMaestros ReporteMaestros1;
+        private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer2;
+        private ReporteMaestros ReporteMaestros2;
     }
 }

@@ -21,7 +21,7 @@ namespace Vista_PrototipoMenu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Help.ShowHelp(this,"Ayuda/AyudaExamen.chm","Ayuda.html");
+            Help.ShowHelp(this, "Ayuda/AyudaParcial2.chm", "Ayuda.html");
         }
 
         private void button2_Click(object sender, EventArgs e)
