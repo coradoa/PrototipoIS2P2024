@@ -1,0 +1,6 @@
+C:\Users\Usuario\Documents\GitHub\EvaluacionIS2k24\Codigo\Modulos\Menu\MenuHCV\Modelo\bin\Debug\Modelo_MenuHCV.dll
+C:\Users\Usuario\Documents\GitHub\EvaluacionIS2k24\Codigo\Modulos\Menu\MenuHCV\Modelo\bin\Debug\Modelo_MenuHCV.pdb
+C:\Users\Usuario\Documents\GitHub\EvaluacionIS2k24\Codigo\Modulos\Menu\MenuHCV\Modelo\obj\Debug\Modelo_MenuHCV.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\EvaluacionIS2k24\Codigo\Modulos\Menu\MenuHCV\Modelo\obj\Debug\Modelo_MenuHCV.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\GitHub\EvaluacionIS2k24\Codigo\Modulos\Menu\MenuHCV\Modelo\obj\Debug\Modelo_MenuHCV.dll
+C:\Users\Usuario\Documents\GitHub\EvaluacionIS2k24\Codigo\Modulos\Menu\MenuHCV\Modelo\obj\Debug\Modelo_MenuHCV.pdb
